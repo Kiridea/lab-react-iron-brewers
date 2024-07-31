@@ -20,7 +20,7 @@ function BeerDetailsPage() {
       .catch((error) => console.error(error))
   }
 
-  useState(() => {
+  useEffect(() => {
     getBeer()
   }, [])
 
