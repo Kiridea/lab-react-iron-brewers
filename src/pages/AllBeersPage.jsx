@@ -19,7 +19,7 @@ function AllBeersPage() {
 
   useEffect(() => {
     getAllBeers()
-  }, [])
+  }, [beerId])
 
   // TASKS:
   // 1. Set up an effect hook to make a request to the Beers API and get a list with all the beers.
